@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Footer() {
   return (
     <footer className="site-footer" aria-label="Site footer">
@@ -33,11 +35,11 @@ function Footer() {
           <div className="footer-col">
             <h4>Shop</h4>
             <ul>
-              <li><a href="shop.html">All Products</a></li>
-              <li><a href="shop.html">Crochet</a></li>
-              <li><a href="shop.html">Art Prints</a></li>
-              <li><a href="shop.html">Ceramics</a></li>
-              <li><a href="shop.html">Collectibles</a></li>
+              <li><Link to="/shop">All Products</Link></li>
+              <li><Link to="/shop">Crochet</Link></li>
+              <li><Link to="/shop">Art Prints</Link></li>
+              <li><Link to="/shop">Ceramics</Link></li>
+              <li><Link to="/shop">Collectibles</Link></li>
             </ul>
           </div>
 
@@ -45,11 +47,11 @@ function Footer() {
           <div className="footer-col">
             <h4>Information</h4>
             <ul>
-              <li><a href="about.html">Our Story</a></li>
+              <li><Link to="/about">Our Story</Link></li>
               <li><a href="#">Shipping Policy</a></li>
               <li><a href="#">Returns</a></li>
               <li><a href="#">FAQ</a></li>
-              <li><a href="contact.html">Contact Us</a></li>
+              <li><Link to="/contact">Contact Us</Link></li>
             </ul>
           </div>
 

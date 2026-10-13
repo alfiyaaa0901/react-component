@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function AboutCTA() {
   return (
     <section
@@ -35,13 +37,13 @@ function AboutCTA() {
             flexWrap: "wrap"
           }}
         >
-          <a href="shop.html" className="btn btn-primary">
+          <Link to="/shop" className="btn btn-primary">
             Browse the Shop ✦
-          </a>
+          </Link>
 
-          <a href="contact.html" className="btn btn-outline">
+          <Link to="/contact" className="btn btn-outline">
             Say Hello
-          </a>
+          </Link>
         </div>
 
       </div>

@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function StorySection() {
   return (
     <section className="section" aria-labelledby="how-began">
@@ -7,7 +9,7 @@ function StorySection() {
 
           <div className="about-image">
             <img
-              src="images/about1.jpg"
+              src="/images/about1.jpg"
               alt="Yuki crocheting"
               loading="lazy"
             />
@@ -41,9 +43,9 @@ function StorySection() {
               Within three months, the waiting list was six weeks long.
             </p>
 
-            <a href="shop.html" className="btn btn-primary mt-md">
+            <Link to="/shop" className="btn btn-primary mt-md">
               Visit the Shop ✦
-            </a>
+            </Link>
 
           </div>
 

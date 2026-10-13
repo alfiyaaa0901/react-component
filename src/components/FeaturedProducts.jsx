@@ -1,5 +1,6 @@
+import { Link } from "react-router-dom";
 
-   function FeaturedProducts() {
+function FeaturedProducts() {
   return (
     <section className="section section-alt" aria-label="Featured products">
       {/* FEATURED PRODUCTS */}
@@ -124,9 +125,9 @@
 
         {/* View all link */}
         <div className="text-center mt-md">
-          <a href="shop.html" className="btn btn-outline">
+          <Link to="/shop" className="btn btn-outline">
             View All Products ✦
-          </a>
+          </Link>
         </div>
       </div>
     </section>
